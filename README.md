@@ -6,3 +6,5 @@ We can then use Grover's algorithm to work out which states have their phases ch
 
 ## Overview of Grover's algorithm
 
+1) The first step is to create an equal superposition of every possible input to the oracle. If our qubits all start in the state |0> , we can create this superposition by applying a H-gate to each qubit. We’ll call this equal superposition state '|s>'.
+
